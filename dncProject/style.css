@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+    overflow-x: hidden
+}
+
+#logo{
+    width: 150px;
+    margin: 75px 10px 25px 75px;
+}
+#frase-efeito{
+    margin-left: 150px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+#frase-secundary{
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#seção-form{
+    padding-bottom: 100px;
+}
+#inicio{
+    background-image: url(imagens/fundoinicial.svg);
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+}
+#welcome-info{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color:"#EAECE5";
+    padding: 30px 30px 30px 30px;
+}
+#options{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.opt{
+    display: inline-flex;
+    align-items: center;
+    padding: 25px 80px 25px 80px;
+    margin: 10px 10px 10px 10px;
+}
+.opt > p{
+    padding: 10px;
+}
+#secao-nv12{
+    display: inline-flex;
+}
+#title-nvl2{
+    color: #247BA0;
+}
+#secao-nvl2{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 30px 50px 100px;
+}
+#descri{
+    margin: 50px 30px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#carrossel > #title-car{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+#tit{
+    padding: 20px;
+    align-items: center;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+.cards{
+    margin-left: 50px;
+}
+#seção-form > h2{
+   text-align: center;
+   margin: 25px;
+   color:#383838;
+}
+form{
+    text-align: center;
+}
+input{
+    margin: 15px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(233, 233, 233);
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #318fb3;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px gray;
+    transition-duration: 0.5s;
+}
